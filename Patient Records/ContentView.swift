@@ -311,7 +311,7 @@ struct PastMedicalHistory: View {
                                 .textFieldStyle(RoundedBorderTextFieldStyle())
                                 .padding()
                         }
-                    }
+                    }  
                 } else if MedicalCondition == "Hypertension" {
                     VStack {
                         MultipleSelectionRow(title: MedicalCondition, isSelected: self.isSelected(MedicalCondition: MedicalCondition)) {
